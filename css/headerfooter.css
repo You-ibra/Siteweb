@@ -1,0 +1,161 @@
+/* STYLE DU HEADER */
+	header {
+		background-color: #d3d7e7;
+		padding : 1px;
+		height : 203px;
+		display : inline-block;
+		width : 100%;
+	}
+
+	#logo {
+		margin-top : 3px;
+		float : left; 
+		width : 200px;
+		flex: auto;
+	}
+	
+	header #titre {
+		width : 300px;
+	}
+	
+	#header_titre, #horizontal {
+		margin-left : 300px;
+		margin-right : 300px;
+		text-align : center;
+	}
+
+	#horizontal ul li:hover a:hover{
+		font-weight : bold;
+		text-decoration : underline;
+		color : #0e0302;
+		transition: .3s;
+	}
+
+		
+	#horizontal {
+		font-size : 1.5em;
+		color : black;
+		padding-bottom : 5px;
+		text-align : center;
+	}
+	
+	#horizontal ul {
+		padding : 0px;
+	}
+
+	#horizontal li {
+		display: inline-block;
+
+		min-width: 180px;
+		list-style-type: none;
+	}
+
+	#horizontal a {
+		text-decoration: none;
+		display: block;
+		color: black;
+		
+	}
+	
+	.header-links {
+		margin-top : 20px;
+		float : right;
+	}
+	
+	.header-links a{
+      color : #F2D7D5;
+	  text-decoration: none;
+	  padding: 1rem;
+	  font-size: 1.2rem;
+  
+
+	}
+	.header-links a:hover{
+			text-decoration : underline;
+	}
+
+
+
+/* STYLE DU FOOTER */
+	footer {
+		background-color : #d3d7e7	; 
+		padding-top : 30px;
+		text-align : center;
+	}
+
+	
+	.information {
+		display : inline-block;
+		width : 1000px;
+		padding-bottom : 10px;
+	}
+	
+	.information div {
+		width:33.33%;
+		height : auto; 
+		display: inline-block;
+		margin-right: -0.25em;
+	}
+	.information a{
+		padding-left:10px;
+		color : black;
+		text-decoration: none;
+	 }
+	 
+	 .information a:hover{
+			text-decoration : underline;
+			color : blue;
+	}
+	
+	#nos_mail {
+		text-align : left;
+	}
+
+
+		
+	#horizontal2 {
+		font-size : 1em;
+		display: flex;
+		padding:0; 
+		justify-content:flex-end;
+	}
+	
+
+	#horizontal2 li {
+		display:inline;
+
+		width: 10%;
+		list-style-type: none;
+	}
+
+	#horizontal2 a {
+		text-decoration: none;
+		display: block;
+		min-width: 120px;
+	}
+	
+	#horizontal2 ul {
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		text-align:center;
+		}
+	#horizontal2 li {
+		float:left;
+		margin:auto;
+		padding:0;
+		background-color:#d3d7e7;
+		}
+	#horizontal2 li a {
+		display:block;
+		width:100px;
+		color:grey;
+		text-decoration:none;
+		padding:5px;
+		}
+	#horizontal2 li a:hover {
+		color:black;
+		}
+	#horizontal2 ul li ul {
+			display:none;
+			}
