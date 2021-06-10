@@ -94,3 +94,32 @@ input[type="submit"]:hover,input[type="button"]:hover,input[type="reset"]:hover 
     border: 2px solid #1A251D;
 }
 
+body{  
+    background-color : RGBa(255, 255, 0, 0.2);
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+    color:black;
+}
+
+body:before {
+            content: "";
+            position: fixed;
+            height: 100%; width: 100%;
+            background: url(../img/chien-chat.jpg);
+            background-size: cover;
+            z-index: -1; /* Keep the background behind the content */     
+            -webkit-filter: blur(8px);
+            -webkit-background-size: cover; /* pour Chrome et Safari */
+            -moz-background-size: cover; /* pour Firefox */
+            -o-background-size: cover; /* pour Opera */
+            background-size: cover; /* version standardisée */
+        }
+
+        body{
+            margin: auto;
+        }
