@@ -4,9 +4,11 @@
     <meta charset="utf-8">
 
     <title>BEPS </title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/connexion_inscription">
 		<link rel="stylesheet" href="css/headerfooter.css">
-
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+		<meta http-equiv="content-language" content="FR"/>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -37,41 +39,44 @@
 
   </header>
     <!-- Ici nous mettons le contenu de la page -->
-    <div id="principal" >
-      <div id="contact">
-        <h1>Trouver votre annonce !</h1>
-        <form method=post action="#" id="formulaire">
-                <div class="date">
-                  <input type="date" name="date" id="date">
-                  <label>Date de début</label>
-                </div>
-          
-                <div class="nom">
-                  <input type="text" size="40" pattern="[A-Za-zÀ-ÿ ]+" id="nom" name="nom_contact" required>
-                  <label id="label_nom">Nom</label>							
-                </div>
-                
-                <div class="metier">
-                  <select id="metier" name="metier_contact">
-                    <option id="" value=""></option>
-                    <option value="apprenti">Chien</option>
-                    <option value="artisan">Chat</option>
-                  </select>
-                  <label id="lab">Animal</label>
-                </div>
-                
-                <div class="message">
-                  <textarea cols="43" id="message" name="message_contact" required></textarea>
-                  <label id="label_message" >Localisation</label>
-                </div>
-              <h4>	
-                <input type="button" value="Trouver" onclick="verif()">
-              </h4>
-        </form>
+   
+    <div class="container">
+      <div class="row">
+          <h1>Nous contacter</h1>
       </div>
-    </div>
-
-
+      <div class="row">
+          <h4 style="text-align:center"> C'est avec plaisir qu'on répondra !</h4>
+      </div>
+      <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Prénom</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Numéro de téléphone</label> 
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Envoyer</div>
+          </div>
+      </div>
+    </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
 
     <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->

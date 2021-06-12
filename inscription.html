@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>BEPS </title>
+    <link rel="stylesheet" href="css/connexion_inscription.css">
+	<link rel="stylesheet" href="css/headerfooter.css">
+
+  </head>
+
+  <body>
+    <!-- Voici notre en‑tête principale utilisée dans toutes les pages
+         de notre site web -->
+    <header>
+      <a href="index.html" ><img id="logo" name="logo" src="img/logo.png" alt="logo du site" /></a>
+
+      <div id="header_titre">
+        <img id="titre" name="titre" src="img/titre.png"/>
+      </div>
+
+      <ul id="horizontal2" style="list-style-type: none">
+        <li><a href="#">Notre association</a></li>|
+        <li><a href="#">Participer</a></li>|
+        <li><a href="#">Annonces</a></li>
+      </ul>
+    <!-- menu horizontal --> 
+    <nav>
+      <ul id="horizontal" style="list-style-type: none">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Connexion.html">Espace personnel</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+     </nav>
+
+  </header>
+
+
+<br><br><br>
+<form action="resp_inscription.php" method="POST" id="form">
+    <div id="principal1">
+        <div class="middle">
+            <h1>INSCRIPTION</h1>
+            <div class="date">
+                <input type="date" name="date" id="date">
+                <label>Date de naissance</label>
+            </div>
+            <div class="login">
+                <input type="text" name="nom" id="nom" size=40 required>
+                <label id="label_nom">Nom</label>
+            </div>
+            <div class="login">
+                <input type="text" name="prenom" id="prenom" size=40 required="">
+                <label id="label_prenom">Prenom</label>
+            </div>
+            <div id="genre" class="genre">
+                <label id="lab">Genre</label> <br/>
+                <input type="radio" id="sexe_f" name="sexe" value="F" required>Femme
+                <input type="radio" id="sexe_h" name="sexe" value="M" required>Homme
+                <input type="radio" id="sexe_a" name="sexe" value="A" required>Autre
+            </div>		
+            <div class="login">
+                <input type="text" name="adresse" id="adresse" size=40  required="">
+                <label id="label_adresse">Adresse</label>
+            </div>
+            <div class="login">
+                <input type="text" name="ville" id="ville"  size=40 required="">
+                <label id="label_ville">Ville</label>
+            </div>
+                    
+            <div class="CodePostal">
+                <input type="number" name="code" id="code" pattern="[0-9]{5}"required size=30>
+                <label id="label_code">Code postal</label>
+            </div>
+            <div class="login">
+                <input type="text" name="login"  id="login" size=40  required="">
+                <label id="label_login">Login</label>
+            </div>
+            <div class="password">
+                <input type="password" name="mdp" id="mdp" size=40 required=""> 
+                <label id="label_mdp">Mot de passe</label>
+                <br>
+                <input type="checkbox" id="affiche_mdp" onclick="affiche()">Afficher le mot de passe
+            </div> 
+            <div class="mail">
+                <input type="text" size="40" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" name="email" id="email" required>
+                <label id="label_email">Mail</label>
+            </div>
+            <div class="boutton">
+                <input type="button" value="Valider mon insciption" id="valider" name="valider" onclick="verif()" />          
+                <input type="reset" value="Annuler" id="annuler" name="annuler" /> <br/>
+            </div>
+        <br/>
+        </div>
+    </div>
+</form><br><br><br>
+
+<!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
+<footer>
+    <div id="mention_legale">
+      <p>&copy; Copyright BEPS.fr All rights reserved </p>
+      <p>Webmaster Ibrahim</p>
+   </div>
+   
+   <div class="information">
+     <div id="nos_mail">
+       <ul style="list-style-type: none">
+         <li><i id="icon" class="fas fa-envelope-open"><a href="mailto:youssef9320010@gmail.com">youssef9320010@gmail.com</a></i></li>
+       </ul>
+     </div>
+     
+     <div id="nos_telephone">
+       <i id="icon" class="fas fa-phone-alt"><a href="tel:+33612345678">+33 6 12 34 56 78 </a></i>
+     </div>
+     
+     <div id="nos_adresse">
+       <i id="icon" class="fas fa-map-marker-alt">
+       <a href="https://www.google.com/maps/place/Centre+Commercial+Plein+Air/@48.9414087,2.4432639,15z/data=!4m2!3m1!1s0x0:0x6243d6888282b52c?sa=X&ved=2ahUKEwipkPy-mYjxAhXjEWMBHd7ZC08Q_BIwCnoECDgQBQ" target="_blank">
+       Avenue Charles Floquet, Le Blanc-Mesnil, France </a>
+       </i>
+     </div>
+   </div>
+
+  </footer>
+
+</body>
+</html>
