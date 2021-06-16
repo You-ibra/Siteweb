@@ -1,5 +1,8 @@
 
+#contact{
 
+    background-color: white;
+}
 
 
 body{  
@@ -69,7 +72,7 @@ body:before {
         }
         
         
-        .nom, .prenom, .message, .objet, .metier, .genre, .date, .mail{
+        .nom, .prenom, .message, .objet, .metier, .genre, .dateD,.dateF, .mail{
             position: relative;
             margin: 0 0 1em 1em;
             padding : 5px;
