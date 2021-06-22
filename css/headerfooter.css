@@ -1,10 +1,12 @@
 /* STYLE DU HEADER */
 	header {
-		background-color: #d3d7e7;
+		background: url(../img/banniere9.png);
 		padding : 1px;
-		height : 203px;
-		display : inline-block;
-		width : 100%;
+ 		width: 1515px;
+		height: 350px; 
+		background-repeat:no-repeat;
+		background-size: 1515px 350px; 
+		
 	}
 
 	#logo {
@@ -63,7 +65,7 @@
 	}
 	
 	.header-links a{
-      color : #F2D7D5;
+      
 	  text-decoration: none;
 	  padding: 1rem;
 	  font-size: 1.2rem;
@@ -144,12 +146,10 @@
 		float:left;
 		margin:auto;
 		padding:0;
-		background-color:#d3d7e7;
 		}
 	#horizontal2 li a {
 		display:block;
 		width:100px;
-		color:grey;
 		text-decoration:none;
 		padding:5px;
 		}
