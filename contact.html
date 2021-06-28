@@ -15,73 +15,90 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </head>
 
-  <body style="background-color: #444442;">
-    <!-- Voici notre en‑tête principale utilisée dans toutes les pages
-         de notre site web -->
-         <header>
-<!--           <a href="index.html" ><img id="logo" name="logo" src="img/logo.png" alt="logo du site" /></a>
-    
-          <div id="header_titre">
-            <img id="titre" name="titre" src="img/titre.png"/>
-          </div> -->
-    
-          <ul id="horizontal2" style="list-style-type: none">
-            <li><a href="Association.html">Notre association</a></li>|
-            <li><a href="#">Participer</a></li>|
-            <li><a href="annonces.html">Annonces</a></li>
-          </ul>
-        <!-- menu horizontal --> 
-        <nav>
-          <ul id="horizontal" style="list-style-type: none">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="Connexion.html">Espace personnel</a></li>
-            <li><a href="#">Forum</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-    
-         </nav>
-    
-      </header>
+  <body>
+
+    <header style="color: #698F7D;">
+      <a href="index.html" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
+      <a href="Connexion.html" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+     <!--  <ul id="horizontal2" style="list-style-type: none">
+        <li><a href="Association.html"></a></li>
+        <li><a href="#">Participer</a></li>|
+        <li><a href="annonces.html">Annonces</a></li>
+      </ul> -->
+    <!-- menu horizontal --> 
+    <nav>
+      <ul id="horizontal" style="list-style-type: none">
+        <li><a href="Association.html">Notre association</a></li>
+        <li><a href="annonces.html">Annonces</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+     </nav>
+  </header>
     <!-- Ici nous mettons le contenu de la page -->
    
-    <div class="input-container">
-      <div style="text-align: center;" class="row">
-          <h1 style="color: white;">Nous contacter</h1>
+    <div id="principal" >
+      <div id="titre">
+        <p id="contacter">Nous contacter ?</p>
       </div>
-      <div class="row">
-          <h4 style="text-align:center"> C'est avec plaisir qu'on répondra !</h4>
+      <div id="contact">
+        <form method=post action="contact.php" id="formulaire">
+          
+                <div class="nom">
+
+                  <input type="text" size="40" pattern="[A-Za-zÀ-ÿ ]+" id="nom" name="nom_contact" required>
+                  <label id="label_nom">Nom</label> 
+                </div>
+                <div id="text">
+
+                  <p> Et retrouvez-nous sur les reseaux sociaux !</p>
+                  
+                  <div id="facebook">
+                    <a href="https://www.facebook.com/"><img id="fb" name="logo" src="img/fb.png" alt="logo de facebook"/> <p id="nomreseau"> Bien être Par Solidarité </p></a> 
+
+                  </div>
+                  <div id="instagram">
+                    <a href="https://www.instagram.com/?hl=fr"><img id="insta" name="logo" src="img/insta.png" alt="logo de insta" />   <p id="nomreseau"> bienetreparsolidarite </p> </a>
+
+                  </div>
+                  <div id="tiktok">
+                    <a href="https://www.facebook.com/"><img id="tk" name="logo" src="img/Tiktok.png" alt="logo de Tiktok"/>  <p id="nomreseau"> bien_etre_par_solidarite </p></a>
+                     
+                  </div>
+
+                </div>
+                <div class="prenom">
+                  <input type="text" size="40" pattern="[A-Za-zÀ-ÿ ]+" id="prenom" name="prenom_contact" required>
+                  <label id="label_prenom">Prénom</label>
+                </div>
+                
+                <div class="mail">
+                  <input type="text" size="40" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" name="email_contact" id="email" required>
+                  <label id="label_email">Mail</label>
+                </div>
+                
+                
+                <div class="objet">
+                  <input type="text" size="40" id="objet" name="objet_contact" required>
+                  <label id="label_objet" >Objet</label>
+                </div>
+                
+                <div class="message">
+                  <textarea cols="43" id="message" name="message_contact" required></textarea>
+                  <label id="label_message" >Message</label>
+                </div>
+              <h4>	
+                <input type="button" value="Envoyer" onclick="verif()">
+              </h4>
+        </form>
       </div>
-      <div class="row input-container">
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <input type="text" required />
-              <label>Prénom</label> 
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input">
-              <input type="text" required />
-              <label>Email</label> 
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input" style="float:right;">
-              <input type="text" required />
-              <label>Numéro de téléphone</label> 
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <textarea required></textarea>
-              <label>Message</label>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="btn-lrg submit-btn">Envoyer</div>
-          </div>
-      </div>
-    </div> 
-    
+    </div>
+
+  <br><br>
+
+  <br><br>
+
 
     <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
     <footer>

@@ -1,19 +1,25 @@
 /* STYLE DU HEADER */
 	header {
-		background: url(../img/banniere9.png);
+		background-color:#E7E7E7;
 		padding : 1px;
- 		width: 1515px;
-		height: 350px; 
+ 		width: 100%;
+		height: 115px; 
 		background-repeat:no-repeat;
-		background-size: 1515px 350px; 
-		
+		color: #698F7D;
 	}
 
 	#logo {
-		margin-top : 3px;
+		margin-top : -20px;
 		float : left; 
 		width : 200px;
 		flex: auto;
+	}
+	#personnel{
+		float:right;
+		flex:auto;
+		width:55px;
+		margin-top: 40px;
+		margin-right: 15px;
 	}
 	
 	header #titre {
@@ -26,19 +32,23 @@
 		text-align : center;
 	}
 
-	#horizontal ul li:hover a:hover{
+	#horizontal:hover{
 		font-weight : bold;
-		text-decoration : underline;
 		color : #0e0302;
 		transition: .3s;
 	}
-
+nav #horizontal{
+	display: flex;
+	flex-direction : row;
+	justify-content: center;
+	flex-basis: 120%;
+}
 		
 	#horizontal {
-		font-size : 1.5em;
-		color : black;
-		padding-bottom : 5px;
+		font-size : 1.3em;
+		margin-top: 5%;
 		text-align : center;
+		font-weight: bold;
 	}
 	
 	#horizontal ul {
@@ -46,16 +56,16 @@
 	}
 
 	#horizontal li {
-		display: inline-block;
+	
 
-		min-width: 180px;
+
 		list-style-type: none;
 	}
 
 	#horizontal a {
 		text-decoration: none;
 		display: block;
-		color: black;
+		color: #698F7D;
 		
 	}
 	
@@ -68,7 +78,7 @@
       
 	  text-decoration: none;
 	  padding: 1rem;
-	  font-size: 1.2rem;
+	  font-size: 1.5rem;
   
 
 	}
@@ -76,13 +86,20 @@
 			text-decoration : underline;
 	}
 
+	nav ul li
+	{
+	 margin:0 40px; 
+	}
 
 
 /* STYLE DU FOOTER */
 	footer {
-		background-color : #d3d7e7	; 
+		background-color:rgb(236, 236, 236); ;
+		font-size : 1.3em;
+		font-weight: bold;	; 
 		padding-top : 30px;
 		text-align : center;
+		color: #698F7D;
 	}
 
 	
@@ -100,13 +117,13 @@
 	}
 	.information a{
 		padding-left:10px;
-		color : black;
+		color : #698F7D;
 		text-decoration: none;
 	 }
 	 
 	 .information a:hover{
 			text-decoration : underline;
-			color : blue;
+			color : rgb(1, 1, 2);
 	}
 	
 	#nos_mail {

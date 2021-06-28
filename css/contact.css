@@ -1,132 +1,153 @@
-body {
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    background-color: #444442;
-    margin: auto;
+/* Style de la page contact */
+body{
+	margin: auto;
+}
+body:before {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(../img/banniere10.svg);
+    background-position-y: 115px;
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */     
+
+}
+#lateral {
+	height : 670px; 
 }
 
-h1 {
-    font-family: 'Poppins', sans-serif, 'arial';
-    font-weight: 600;
-    font-size: 48px;
-    color: white;
+/* STYLE DE LA PARTIE CENTRALE */
+#principal {
+
+	padding-top : 10px;
+	padding-bottom : 10px;
+	height : 720px;
+}
+
+#contact {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 70% ;
+    vertical-align: middle;
+    background-color: #EEE3CE;
+
+}
+#fb,#insta,#tk {
+
+    width : 30px;
+    flex: auto;
+    margin-top: 20px;
+    margin-right: 45%;
+}
+
+#nomreseau{
+    margin-left: 80px;
+    margin-top: -7.5%;
+}
+
+
+#text{
+
+
+    vertical-align: middle;
+    width: 430px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-}
-
-h4 {
-    font-family: 'Roboto', sans-serif, 'arial';
-    font-weight: 400;
-    font-size: 20px;
-    color: #9b9b9b;
-    line-height: 1.5;
-}
-
-
-input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
-    font-size: 0.75em;
-    color: #999;
-    top: -5px;
-    -webkit-transition: all 0.225s ease;
-    transition: all 0.225s ease;
-}
-
-.styled-input {
-    float: left;
-    width: 293px;
-    margin: 1rem 0;
-    position: relative;
-    border-radius: 4px;
-}
-
-@media only screen and (max-width: 768px){
-    .styled-input {
-        width:100%;
-    }
-}
-
-.styled-input label {
-    color: #999;
-    padding: 1.3rem 30px 1rem 30px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    pointer-events: none;
-}
-
-.styled-input.wide { 
-    width: 650px;
-    max-width: 100%;
-}
-
-input,
-textarea {
-    padding: 30px;
-    border: 0;
-    width: 100%;
-    font-size: 1rem;
-    background-color: #2d2d2d;
-    color: white;
-    border-radius: 4px;
-}
-
-input:focus,
-textarea:focus { outline: 0; }
-
-input:focus ~ span,
-textarea:focus ~ span {
-    width: 100%;
-    -webkit-transition: all 0.075s ease;
-    transition: all 0.075s ease;
-}
-
-textarea {
-    width: 100%;
-    min-height: 15em;
-}
-
-.input-container {
-    width: 650px;
-    max-width: 100%;
-    margin: 20px auto 25px auto;
-}
-
-.submit-btn {
+    font-weight: bold;
+    font-size: 1.2em;
     float: right;
-    padding: 7px 35px;
-    border-radius: 60px;
-    display: inline-block;
-    background-color: #4b8cfb;
-    color: white;
-    font-size: 18px;
+    margin-right: 75px;
+}
+
+
+#titre{
+    background-color:#EEE3CE ;
+
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-left: 36%;
+    text-align : center;
+    vertical-align: middle;
+    line-height: 40px;
+
+}
+
+
+
+#contact h4 {
+	text-align : center;
+}
+
+
+input[type="text"], select, textarea, input[type="date"] {
+    padding: 0.5em 0.5em;
+    border: 0;
+    margin-top: 15px;
+    background-color: #D1DAD6;  
+}
+
+
+.nom, .prenom, .message, .objet, .metier, .genre, .date, .mail{
+    position: relative;
+    margin: 0 0 1em 1em;
+    padding : 5px;
+}
+
+
+label {
+	color:black;
+    padding: 0.4em .9em;
+    font-weight : initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.1s; 
+    margin-top: 15px;
+}
+
+#label_message{
+    margin-top: -3px;
+}
+#lab {
+	color:black;
+    padding: 0.4em .9em;
+    font-weight : bold;
+}
+
+input:focus ~ label,input:valid ~ label {
+    top: -1.3em;  
+}
+
+select:focus ~ label, select:valid ~ label {
+    top: -1.3em; 
+}
+
+textarea:focus ~ label , textarea:valid ~ label{
+    top: -1.3em; 
+}
+
+input[type="button"] {
+    color: #FFFFFF;
+    padding: .8em 3em;
+    font-size: .6em;
+    margin: 1em;
     cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
-              0 2px 10px 0 rgba(0,0,0,0.07);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+    background: #698F7D;
+    border: 2px solid white;
+	right: -70px;
+    transition: all 0.3s;
+    text-align : center;
+    border-radius: 10px;
+
+}
+input[type="button"]:hover  {
+	background: none;
+	color : black; 
+    border: 2px solid #1A251D;
 }
 
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
 
-@media (max-width: 768px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
 
-input[type=checkbox] + label {
-  color: #ccc;
-  font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
-}

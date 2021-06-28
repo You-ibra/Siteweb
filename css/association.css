@@ -2,46 +2,111 @@
 body {
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
-    background-color: #444442;
     margin: auto;
 }
 
-.site{
-    display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
-    background-color: rgba(30, 210, 141, 0.753);
-    color: rgb(23, 25, 146);
-    grid-template-columns: 1fr 6fr 1fr;
-}
 
 #principal{
 margin: 50px;
 
 }
 
-#principal{
-    grid-column: 2;
-}
+
 h2{
+    font-size: 1.3em;
+    font-weight: 650;
+    
+}
+
+#titre1{
+
+    background-color: #EEE3CE;
+    vertical-align: middle;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 70px;
+    
+}
+#titre2{
+
+    background-color: #E7E7E7;
+    vertical-align: middle;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 70px;
     text-align: center;
-    font-size: 1.5em;
-}
 
-header{
-    grid-column: 1/span 3;
 
 }
-footer{
-    grid-column: 1/span 3;px
+#titre3{
+
+    background-color: #D1DAD6;
+    vertical-align: middle;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 70px;
+    text-align: center;
+
 
 }
 
-#imgchien{
-    width: 25%;
-    border-radius: 50%;
-    float:left;
-    margin-right: 20px;
+#texte{
+    background-color: #EEE3CE;
+    font-size: 1.3em;
+    width: 51%;
+    height: 30px;
+    padding-left: 2px;
+    vertical-align: middle;
+    line-height: 30px;
 }
-#imgchien:hover {
-    transform: scaleX(-1);
-  }
+#texte1{
+    background-color: #E7E7E7;
+    font-size: 1.3em;
+    width: 1265px;
+    height: 60px;
+    padding-left: 2px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+#texte2{
+    background-color: #D1DAD6;
+    font-size: 1.3em;
+    width: 1265px;
+    height: 75px;
+    padding-left: 2px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+#texte3{
+    background-color: #D1DAD6;
+    font-size: 1.3em;
+    width: 1265px;
+    height: 75px;
+    padding-left: 2px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 90px;
+}
+
+    
+    body:before {
+        content: "";
+        position: fixed;
+        height: 100%; width: 100%;
+        background: url(../img/banniere10.svg);
+        background-position-y: 115px;
+        background-size: cover;
+        z-index: -1; /* Keep the background behind the content */     
+
+    }
+
+    #beps{
+        float: left;
+        width:85px;
+        margin-top: 17px;
+    }

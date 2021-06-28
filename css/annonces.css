@@ -21,7 +21,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	margin:33px;
-	flex:1 17;
+	flex:10 22px;
 	padding: 2%;
 
 	box-shadow: 17px 3px 25px 10px rgb(92, 90, 90);
@@ -29,6 +29,9 @@ body{
 .product-image img {
 	height:250px;
     width:250px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
 }
 
 .product-card {
@@ -55,3 +58,32 @@ h5 {
 	color: #666;
 	font-size: 14px;
 }
+#Profil{
+	border-radius: 8px;
+	padding: 10px;
+	border:1px solid ;
+	background-color: rgb(210, 216, 216);
+	margin:10px 4px;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	display:inline-block;
+	border:1px solid ;
+}
+#Profil::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	-webkit-transform: scaleY(.1);
+	transform: scaleY(.1);
+	transition: all .4s
+	}
+	#Profil:hover{
+	color:#7b6ec5;  
+	}
