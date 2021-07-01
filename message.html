@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title>BEPS </title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/message.css">
 		<link rel="stylesheet" href="css/headerfooter.css">
 
 
@@ -36,46 +36,37 @@
   </header>
   
     <!-- Ici nous mettons le contenu de la page -->
-   <div id="principal" >
-      <div id="contact">
-        <h1>Trouver votre annonce !</h1>
-        <form method=post action="#" id="formulaire">
-                <div class="dateD">
-                  <input type="date" name="date" id="date">
-                  <label>Date de début</label>
-                </div>
-                <div class="dateF">
-                  <input type="date" name="date" id="date">
-                  <label>Date de fin</label>
-                </div>
-                <div class="nom">
+    <div id="principal" >
+        <img id="logomessage" name="logo" src="img/logo-message.png" alt="logo du site" />
+        <div id="titre1">
+            <p>Mes messages</p>
+        </div>
+        <div id="titre2">
+            <img id="logomessage2" name="logo" src="img/message-emo.png" alt="logo du site" />
+            <p>Nouveau message</p>
+        </div>
 
-                  <label id="label_nom"></label>							
-                </div>
-                
-                <div class="metier">
-                  <select id="metier" name="metier_contact">
-                    <option id="" value=""></option>
-                    <option value="apprenti">Chien</option>
-                    <option value="artisan">Chat</option>
-                  </select>
-                  <label id="lab">Animal</label>
-                </div>
-                
-                <div class="message">
-                  <textarea cols="43" id="message" name="message_contact" required></textarea>
-                  <label id="label_message" >Ville</label>
-                </div>
-              <h4>	
-                <input type="button" value="Trouver" onclick="verif()">
-              </h4>
-        </form>
-      </div>
+        <div id="texte1">
+            <input type="text" size="50" id="objet" name="objet_contact" required>
+            <label for="lbl1" id="label1">à : </label>
+        </div>
+        <div id="texte2">
+            <input type="text" size="150" id="objet2" name="objet_contact" required>
+            <label for="lbl1" id="label1">Objet : </label>
+        </div>
+        <div id="texte3">
+            <textarea cols="43" id="message" name="message_contact" required></textarea>
+            <label for="lbl1" id="label1">Message : </label>
+        </div>
+        <div id="button">
+            <input id="boutton" type="button" value="Envoyer" >
+        </div>
     </div>
+    
 
  
     
-
+<br><br><br><br><br>
     <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
     <footer>
       <div id="txt1footer">

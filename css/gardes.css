@@ -1,0 +1,98 @@
+body{  
+   
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+
+}
+
+body:before {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(../img/banniere10.svg);
+    background-position-y: 115px;
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */     
+
+    }
+
+body{
+    margin: auto;
+    }
+
+    #titre1{
+        font-size: 1.3em;
+        font-weight:bold;
+        background-color: #E7D6B4;
+        width: 200px;
+        text-align: center;
+        margin-left: 12%;
+        height: 28px;
+        line-height: 28px;
+        vertical-align: middle;
+        margin-top:100px;
+    
+    }
+
+
+    input:focus ~ label,input:valid ~ label {
+        left: 47em;
+    }
+    select:focus ~ label, select:valid ~ label {
+        left: 47em;
+    }
+    
+    textarea:focus ~ label , textarea:valid ~ label{
+        left:47em;
+    }
+
+    
+#message{
+
+
+    font-size: 1.3em;
+    width: 700px;
+    height: 120px;
+    margin-left: 12%;
+    line-height: 80px;
+    background-color: #EEE3CE;
+    border: 0;
+}
+label {
+	color:black;
+    padding: 0.4em .9em;
+    font-weight : bold;
+    position: absolute;
+    transition: all 0.1s; 
+    margin-top: 17px;
+    margin-left:-47%;
+}
+
+input[type="text"], select, textarea, input[type="date"] {
+    padding: 0.2em 0.2em;
+    border: 0;
+    margin-top: 20px;
+    background-color: #D1DAD6;  
+}
+
+#boutton{
+    font-size: 1.2em;
+    font-weight:bold;
+    background-color: #B1A960;
+    width: 230px;
+    text-align: center;
+    margin-left: 12%;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    margin-top:15px;
+    padding-left: 7px;
+    padding-right: 9px;
+
+
+}

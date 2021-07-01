@@ -43,8 +43,12 @@ body:before {
 #nomreseau{
     margin-left: 80px;
     margin-top: -7.5%;
+    color: black;
 }
+#nomreseau:hover{
+    text-decoration: none;
 
+}
 
 #text{
 

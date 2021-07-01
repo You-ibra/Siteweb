@@ -1,0 +1,175 @@
+body{  
+   
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+
+}
+
+body:before {
+            content: "";
+            position: fixed;
+            height: 100%; width: 100%;
+            background: url(../img/banniere10.svg);
+            background-position-y: 115px;
+            background-size: cover;
+            z-index: -1; /* Keep the background behind the content */     
+
+        }
+
+        body{
+            margin: auto;
+        }
+
+#partie1{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+#nomuser{
+    background-color: #698F7D;
+    height:25px;
+    text-align: center;
+    font-weight: bold;
+    width: 220px;
+    font-size: 1.3em;
+    margin-left: 15px;
+}
+
+input[type="text"], select, textarea, input[type="date"] {
+    padding: 0.5em 0.5em;
+    width: 110px;
+    margin-top: 15px;
+    background-color: #D1DAD6;  
+}
+
+input[type="email"], select, textarea {
+    padding: 0.5em 0.5em;
+    width: 250px;
+    margin-top: 15px;
+    background-color: #D1DAD6;  
+}
+label {
+    color:black;
+    padding: 0.4em .9em;
+    top: 0;
+    left: 0;
+    transition: all 0.1s; 
+    margin-top: 15px;
+    text-align: center;
+}
+
+#partie2 {
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+#informations{
+    background-color: #E7E7E7;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 50%; 
+    height:500px;
+}
+
+#partie1{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+#nomuser{
+    background-color: #698F7D;
+    height:25px;
+    text-align: center;
+    font-weight: bold;
+    width: 220px;
+    font-size: 1.3em;
+    margin-left: 15px;
+}
+
+input[type="text"], select, textarea, input[type="date"] {
+    padding: 0.5em 0.5em;
+    width: 110px;
+    margin-top: 15px;
+    background-color: #D1DAD6;  
+}
+
+input[type="email"], select, textarea {
+    padding: 0.5em 0.5em;
+    width: 250px;
+    margin-top: 15px;
+    background-color: #D1DAD6;  
+}
+label {
+    color:black;
+    padding: 0.4em .9em;
+    top: 0;
+    left: 0;
+    transition: all 0.1s; 
+    margin-top: 15px;
+    text-align: center;
+}
+
+#partie2 {
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+#partie2 textarea{
+        height:25px;
+
+}
+label#adresse{
+    float:left;
+    vertical-align: middle;
+    line-height:25px;
+}
+
+#partie3{
+    margin-top: 15px;
+}
+
+#partie4{
+    margin-top: 15px;
+}
+
+#partie5{
+    margin-top: 15px;
+}
+
+#profil{
+    float: left;
+}
+
+#beps{
+    float: left;
+    width : 45px;
+    margin-top: 160px;
+    margin-left: -150px;
+}
+#nbbeps{
+    width:40px;
+    float:left;
+    margin-top:165px;
+    margin-left:-90px;
+}
+#etat{
+    width: 250px;
+    float: left;
+    margin-top: 90px;
+    margin-left: -240px;
+}
+
+#label_profil{
+    float: left;
+    margin-left: 50px;
+    font-size: 1.3em;
+    background-color: #D1DAD6;
+    width: 200px;
+}

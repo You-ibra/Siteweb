@@ -6,6 +6,9 @@
 		height: 115px; 
 		background-repeat:no-repeat;
 		color: #698F7D;
+		border-bottom-color: #989683;
+		border-bottom-style: solid;
+		border-bottom-width: 4px;
 	}
 
 	#logo {
@@ -88,37 +91,32 @@ nav #horizontal{
 
 	nav ul li
 	{
-	 margin:0 40px; 
+		margin:0 40px;
 	}
 
 
 /* STYLE DU FOOTER */
 	footer {
-		background-color:rgb(236, 236, 236); ;
-		font-size : 1.3em;
-		font-weight: bold;	; 
-		padding-top : 30px;
-		text-align : center;
-		color: #698F7D;
+		background-color:rgb(236, 236, 236,0.65); ;
+		padding-top : 15px;
+		width: 100%;
+		
+
 	}
 
 	
 	.information {
-		display : inline-block;
+		display : flex;
+		flex-direction: row;
 		width : 1000px;
 		padding-bottom : 10px;
+
 	}
 	
-	.information div {
-		width:33.33%;
-		height : auto; 
-		display: inline-block;
-		margin-right: -0.25em;
-	}
 	.information a{
-		padding-left:10px;
-		color : #698F7D;
+		color: #0e0302;
 		text-decoration: none;
+		
 	 }
 	 
 	 .information a:hover{
@@ -126,53 +124,76 @@ nav #horizontal{
 			color : rgb(1, 1, 2);
 	}
 	
-	#nos_mail {
-		text-align : left;
-	}
 
 
 		
 	#horizontal2 {
 		font-size : 1em;
 		display: flex;
-		padding:0; 
-		justify-content:flex-start;
+		flex-direction: row;
+		color: #0e0302;
+		text-align: center;
+		
 	}
 	
 
 	#horizontal2 li {
-		display:inline;
 
-		width: 10%;
+
+
 		list-style-type: none;
 	}
 
 	#horizontal2 a {
 		text-decoration: none;
 		display: block;
-		min-width: 120px;
+
 	}
-	
 	#horizontal2 ul {
-		margin:0;
-		padding:0;
-		list-style-type:none;
-		text-align:center;
+		padding : 0px;
 		}
-	#horizontal2 li {
-		float:left;
-		margin:auto;
-		padding:0;
-		}
-	#horizontal2 li a {
-		display:block;
-		width:100px;
-		text-decoration:none;
-		padding:5px;
-		}
+
+
 	#horizontal2 li a:hover {
 		color:black;
 		}
-	#horizontal2 ul li ul {
-			display:none;
-			}
+
+nav #horizontal2{
+	display: flex;
+	flex-direction : row;
+	justify-content: center;
+	flex-basis: 120%;
+}
+	#txt1footer{
+		text-align: center;
+		font-weight: 550;
+		color:black;
+		font-size: 1.3em;
+		text-align : center;
+	}
+
+	#infos{
+		margin-left: 5%;
+		color: #959173;
+	}
+
+	#suivre{
+		margin-right: 5%;
+	}
+	#logosuivre{
+		float : right;
+		width : 100px;
+		flex: auto;
+		margin-top:-7%
+	}
+
+	#logores{
+		width : 300px;
+		height: 220px;
+		float: right;
+		margin-top: -160px;
+		margin-right: -100px;
+	}
+	#navbar{
+		margin-left: 50%;
+	}
