@@ -1,11 +1,14 @@
+<?php
+include ('php/bdd.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
 
     <title>BEPS </title>
-    <link rel="stylesheet" href="css/connexion_inscription.css">
-	  <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="../css/connexion_inscription.css">
+	  <link rel="stylesheet" href="../css/headerfooter.css">
 
 
   </head>
@@ -16,8 +19,8 @@
       
          <header style="color: #698F7D;">
       <div id="cercle"> </div>    
-      <a href="index.html" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
-      <a href="Connexion.html" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+      <a href="../index.php" ><img id="logo" name="logo" src="../img/logo2.png" alt="logo du site" /></a>
+      <a href="Connexion.php" ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
      <!--  <ul id="horizontal2" style="list-style-type: none">
         <li><a href="Association.html"></a></li>
         <li><a href="#">Participer</a></li>|
@@ -26,10 +29,10 @@
     <!-- menu horizontal --> 
     <nav>
       <ul id="horizontal" style="list-style-type: none">
-        <li><a href="Association.html">Notre association</a></li>
-        <li><a href="annonces.html">Annonces</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Association.php">Notre association</a></li>
+        <li><a href="annonces.php">Annonces</a></li>
+        <li><a href="forum.php">Forum</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
 
      </nav>
@@ -109,16 +112,16 @@
     <p id="confidentalité">Politique de confidentalité</p>
  </div>
   <div id="suivre">
-    <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-    <img id="logores" name="logo" src="img/imageres.png" alt="nous suivre"/>
+    <img id="logosuivre" name="logo" src="../img/NOUS SUIVRE.png" alt="nous suivre"/>
+    <img id="logores" name="logo" src="../img/imageres.png" alt="nous suivre"/>
  </div>
  <div class="information">
   <nav id="navbar">
     <ul id="horizontal2" style="list-style-type: none">
-      <li><a href="Association.html">Notre association</a></li>|
-      <li><a href="annonces.html">Annonces</a></li>|
-      <li><a href="forum.html">Forum</a></li>|
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Association.php">Notre association</a></li>|
+      <li><a href="annonces.php">Annonces</a></li>|
+      <li><a href="forum.php">Forum</a></li>|
+      <li><a href="contact.php">Contact</a></li>
     </ul>
 
    </nav>

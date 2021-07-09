@@ -4,8 +4,8 @@
     <meta charset="utf-8">
 
     <title>BEPS </title>
-    <link rel="stylesheet" href="css/annonces.css">
-		<link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="../css/annonces.css">
+		<link rel="stylesheet" href="../css/headerfooter.css">
 
 
   </head>
@@ -15,8 +15,8 @@
          de notre site web -->
       
          <header>
-       <a href="index.html" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
-        <a href="Connexion.html" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+       <a href="../index.php" ><img id="logo" name="logo" src="../img/logo2.png" alt="logo du site" /></a>
+        <a href="../Connexion.php" ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
 
 
 
@@ -29,10 +29,10 @@
     
     <nav>
       <ul id="horizontal" style="list-style-type: none">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="Connexion.html">Espace personnel</a></li>
-        <li><a href="#">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="Connexion.php">Espace personnel</a></li>
+        <li><a href="forum.php">Forum</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
 
      </nav>
@@ -42,7 +42,7 @@
 
         <div class="product-card">
 			<div class="product-image">
-				<img id="img1" src="img/chat1.jpg">
+				<img id="img1" src="../img/chat1.jpg">
 			</div>
 			<div class="product-info">
         <h3> Nom Prénom - Distance</h3> 
@@ -54,7 +54,7 @@
         
         <div class="product-card">
 			<div class="product-image">
-				<img id="img2" src="img/chat2.jpg">
+				<img id="img2" src="../img/chat2.jpg">
 			</div>
 			<div class="product-info">
         <h3> Nom Prénom - Distance</h3> 
@@ -65,7 +65,7 @@
         </div>
         <div class="product-card">
                 <div class="product-image">
-                    <img id="img2" src="img/chat2.jpg">
+                    <img id="img2" src="../img/chat2.jpg">
                 </div>
                 <div class="product-info">
                   <h3> Nom Prénom - Distance</h3> 
@@ -76,7 +76,7 @@
             </div>
         <div class="product-card">
                     <div class="product-image">
-                        <img id="img1" src="img/chat1.jpg">
+                        <img id="img1" src="../img/chat1.jpg">
                     </div>
                     <div class="product-info">
                       <h3> Nom Prénom - Distance</h3> 
@@ -103,16 +103,16 @@
         <p id="confidentalité">Politique de confidentalité</p>
      </div>
       <div id="suivre">
-        <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-        <img id="logores" name="logo" src="img/imageres.png" alt="nous suivre"/>
+        <img id="logosuivre" name="logo" src="../img/NOUS SUIVRE.png" alt="nous suivre"/>
+        <img id="logores" name="logo" src="../img/logos.png" alt="nous suivre"/>
      </div>
      <div class="information">
       <nav id="navbar">
         <ul id="horizontal2" style="list-style-type: none">
-          <li><a href="Association.html">Notre association</a></li>|
-          <li><a href="annonces.html">Annonces</a></li>|
-          <li><a href="forum.html">Forum</a></li>|
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Association.php">Notre association</a></li>|
+          <li><a href="annonces.php">Annonces</a></li>|
+          <li><a href="forum.php">Forum</a></li>|
+          <li><a href="contact.php">Contact</a></li>
         </ul>
   
        </nav>

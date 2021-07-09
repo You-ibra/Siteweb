@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-    <link rel="stylesheet" href="css/forum.css">
-        <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="../css/forum.css">
+        <link rel="stylesheet" href="../css/headerfooter.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 		<meta http-equiv="content-language" content="FR"/>
 
@@ -15,8 +15,8 @@
       
          <header style="color: #698F7D;">
       <div id="cercle"> </div>    
-      <a href="index.html" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
-      <a href="Connexion.html" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+      <a href="../index.php" ><img id="logo" name="logo" src="../img/logo2.png" alt="logo du site" /></a>
+      <a href="Connexion.php" ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
      <!--  <ul id="horizontal2" style="list-style-type: none">
         <li><a href="Association.html"></a></li>
         <li><a href="#">Participer</a></li>|
@@ -25,10 +25,10 @@
     <!-- menu horizontal --> 
     <nav>
       <ul id="horizontal" style="list-style-type: none">
-        <li><a href="Association.html">Notre association</a></li>
-        <li><a href="annonces.html">Annonces</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Association.php">Notre association</a></li>
+        <li><a href="annonces.php">Annonces</a></li>
+        <li><a href="forum.php">Forum</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
 
      </nav>
@@ -53,9 +53,9 @@
             </div>
             <div id="question">
               <p id="nomuser"> Jules.T a répondu :  </p>
-              <a href="index.html" ><img id="emoji" name="logo" src="img/emoji.png" alt="emoji" /></a>
+              <a href="../index.php" ><img id="emoji" name="logo" src="img/emoji.png" alt="emoji" /></a>
               <p id="question1"> Il suffit de vous rendre dans votre compte personnel dans votre profil et modifier le mot de passe.  </p>
-              <a href="index.html" ><img id="reply" name="logo" src="img/reply.png" alt="reply" /></a>
+              <a href="../index.php" ><img id="reply" name="logo" src="img/reply.png" alt="reply" /></a>
             </div>
           <div id="titre4">
             <p > Partager un article </p>
@@ -84,15 +84,15 @@
          </div>
           <div id="suivre">
             <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-            <img id="logores" name="logo" src="img/imageres.png" alt="nous suivre"/>
+            <img id="logores" name="logo" src="img/logos.png" alt="nous suivre"/>
          </div>
          <div class="information">
           <nav id="navbar">
             <ul id="horizontal2" style="list-style-type: none">
-              <li><a href="Association.html">Notre association</a></li>|
-              <li><a href="annonces.html">Annonces</a></li>|
-              <li><a href="forum.html">Forum</a></li>|
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="Association.php">Notre association</a></li>|
+              <li><a href="annonces.php">Annonces</a></li>|
+              <li><a href="forum.php">Forum</a></li>|
+              <li><a href="contact.php">Contact</a></li>
             </ul>
       
            </nav>

@@ -115,25 +115,25 @@ label {
 #label_message{
     margin-top: -3px;
 }
-#lab {
+#label {
 	color:black;
     padding: 0.4em .9em;
     font-weight : bold;
 }
 
 input:focus ~ label,input:valid ~ label {
-    top: -1.3em;  
+    top: -1.4em;  
 }
 
 select:focus ~ label, select:valid ~ label {
-    top: -1.3em; 
+    top: -1.4em; 
 }
 
 textarea:focus ~ label , textarea:valid ~ label{
-    top: -1.3em; 
+    top: -1.4em; 
 }
 
-input[type="button"] {
+input[type="submit"] {
     color: #FFFFFF;
     padding: .8em 3em;
     font-size: .6em;
@@ -147,7 +147,7 @@ input[type="button"] {
     border-radius: 10px;
 
 }
-input[type="button"]:hover  {
+input[type="submit"]:hover  {
 	background: none;
 	color : black; 
     border: 2px solid #1A251D;

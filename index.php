@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,8 +19,8 @@
       
     <header style="color: #698F7D;">
       <div id="cercle"> </div>    
-      <a href="index.html" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
-      <a href="Connexion.html" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+      <a href="index.php" ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
+      <a href="php/Connexion.php" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
      <!--  <ul id="horizontal2" style="list-style-type: none">
         <li><a href="Association.html"></a></li>
         <li><a href="#">Participer</a></li>|
@@ -26,10 +29,10 @@
     <!-- menu horizontal --> 
     <nav>
       <ul id="horizontal" style="list-style-type: none">
-        <li><a href="Association.html">Notre association</a></li>
-        <li><a href="annonces.html">Annonces</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="php/Association.php">Notre association</a></li>
+        <li><a href="php/annonces.php">Annonces</a></li>
+        <li><a href="php/forum.php">Forum</a></li>
+        <li><a href="php/contact.php">Contact</a></li>
       </ul>
 
      </nav>
@@ -39,7 +42,7 @@
    <div id="principal" >
       <div id="contact">
         <h1>Trouver votre annonce !</h1>
-        <form method=post action="#" id="formulaire">
+        <form method=get action="#" id="formulaire">
                 <div class="dateD">
                   <input type="date" name="date" id="date">
                   <label>Date de début</label>
@@ -91,15 +94,15 @@
      </div>
       <div id="suivre">
         <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-        <img id="logores" name="logo" src="img/imageres.png" alt="nous suivre"/>
+        <img id="logores" name="logo" src="img/logos.png" alt="nous suivre"/>
      </div>
      <div class="information">
       <nav id="navbar">
         <ul id="horizontal2" style="list-style-type: none">
-          <li><a href="Association.html">Notre association</a></li>|
-          <li><a href="annonces.html">Annonces</a></li>|
-          <li><a href="forum.html">Forum</a></li>|
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="php/Association.php">Notre association</a></li>|
+          <li><a href="php/annonces.php">Annonces</a></li>|
+          <li><a href="php/forum.php">Forum</a></li>|
+          <li><a href="contact.php">Contact</a></li>
         </ul>
   
        </nav>
