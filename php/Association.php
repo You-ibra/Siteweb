@@ -16,7 +16,7 @@
          <header style="color: #698F7D;">
       <div id="cercle"> </div>    
       <a href="../index.php" ><img id="logo" name="logo" src="../img/logo2.png" alt="logo du site" /></a>
-      <a href="Connexion.php ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
+      <a href="Connexion.php" ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
      <!--  <ul id="horizontal2" style="list-style-type: none">
         <li><a href="Association.html"></a></li>
         <li><a href="#">Participer</a></li>|

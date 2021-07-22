@@ -47,15 +47,15 @@
             </div>
             <div id="question">
                 <p id="nomuser"> Manon_Fe demande :  </p>
-                <a href="index.html" ><img id="emoji" name="logo" src="img/emoji.png" alt="emoji" /></a>
+                <a href="index.html" ><img id="emoji" name="logo" src="../img/emoji.png" alt="emoji" /></a>
                 <p id="question1"> Comment changer mon mot de passe ?  </p>
-                <a href="index.html" ><img id="reply" name="logo" src="img/reply.png" alt="reply" /></a>
+                <a href="index.html" ><img id="reply" name="logo" src="../img/reply.png" alt="reply" /></a>
             </div>
             <div id="question">
               <p id="nomuser"> Jules.T a répondu :  </p>
-              <a href="../index.php" ><img id="emoji" name="logo" src="img/emoji.png" alt="emoji" /></a>
+              <a href="../index.php" ><img id="emoji" name="logo" src="../img/emoji.png" alt="emoji" /></a>
               <p id="question1"> Il suffit de vous rendre dans votre compte personnel dans votre profil et modifier le mot de passe.  </p>
-              <a href="../index.php" ><img id="reply" name="logo" src="img/reply.png" alt="reply" /></a>
+              <a href="../index.php" ><img id="reply" name="logo" src="../img/reply.png" alt="reply" /></a>
             </div>
           <div id="titre4">
             <p > Partager un article </p>
@@ -83,8 +83,8 @@
             <p id="confidentalité">Politique de confidentalité</p>
          </div>
           <div id="suivre">
-            <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-            <img id="logores" name="logo" src="img/logos.png" alt="nous suivre"/>
+            <img id="logosuivre" name="logo" src="../img/NOUS SUIVRE.png" alt="nous suivre"/>
+            <img id="logores" name="logo" src="../img/logos.png" alt="nous suivre"/>
          </div>
          <div class="information">
           <nav id="navbar">

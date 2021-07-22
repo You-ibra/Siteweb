@@ -14,31 +14,35 @@
     <!-- Voici notre en‑tête principale utilisée dans toutes les pages
          de notre site web -->
       
-    <header style="color: #698F7D;">
-      <div id="cercle"> </div>    
-      <a href="../index.php ><img id="logo" name="logo" src="img/logo2.png" alt="logo du site" /></a>
-      <a href="Connexion.php" ><img id="personnel" name="personnel" src="img/espacepersonnel.png" alt="Espace personnel" /></a>
+<header>
+       <a href="../index.php" ><img id="logo" name="logo" src="../img/logo2.png" alt="logo du site" /></a>
+        <a href="Connexion.php" ><img id="personnel" name="personnel" src="../img/espacepersonnel.png" alt="Espace personnel" /></a>
+
+
+
      <!--  <ul id="horizontal2" style="list-style-type: none">
-        <li><a href="Association.html"></a></li>
+        <li><a href="Association.html">Notre association</a></li>|
         <li><a href="#">Participer</a></li>|
-        <li><a href="annonces.html">Annonces</a></li>
+        <li><a href="#">Annonces</a></li>
       </ul> -->
     <!-- menu horizontal --> 
+    
     <nav>
       <ul id="horizontal" style="list-style-type: none">
-        <li><a href="Association.html">Notre association</a></li>
-        <li><a href="annonces.html">Annonces</a></li>
-        <li><a href="forum.html">Forum</a></li>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="Connexion.php">Espace personnel</a></li>
+        <li><a href="forum.php">Forum</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
 
      </nav>
   </header>
+
   
     <!-- Ici nous mettons le contenu de la page -->
     <div id="principal" >
         <div id="informations">
-          <img id="profil" name="profil" src="img/profil.png" alt="logo du profil" />
+          <img id="profil" name="profil" src="../img/profil.png" alt="logo du profil" />
             <div id="partie1">
                 <div id="nomuser">
                     <label id="label_utilisateur">Nom</label>
@@ -125,8 +129,8 @@
         <p id="confidentalité">Politique de confidentalité</p>
      </div>
       <div id="suivre">
-        <img id="logosuivre" name="logo" src="img/NOUS SUIVRE.png" alt="nous suivre"/>
-        <img id="logores" name="logo" src="img/logos.png" alt="nous suivre"/>
+        <img id="logosuivre" name="logo" src="../img/NOUS SUIVRE.png" alt="nous suivre"/>
+        <img id="logores" name="logo" src="../img/logos.png" alt="nous suivre"/>
      </div>
      <div class="information">
       <nav id="navbar">

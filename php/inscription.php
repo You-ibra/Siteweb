@@ -1,5 +1,5 @@
 <?php
-include ('php/bdd.php');
+include ('../bdd/bdd.php');
 ?>
 <!DOCTYPE html>
 <html>

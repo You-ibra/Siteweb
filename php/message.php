@@ -37,12 +37,12 @@
   
     <!-- Ici nous mettons le contenu de la page -->
     <div id="principal" >
-        <img id="logomessage" name="logo" src="img/logo-message.png" alt="logo du site" />
+        <img id="logomessage" name="logo" src="../img/logo-message.png" alt="logo du site" />
         <div id="titre1">
             <p>Mes messages</p>
         </div>
         <div id="titre2">
-            <img id="logomessage2" name="logo" src="img/message-emo.png" alt="logo du site" />
+            <img id="logomessage2" name="logo" src="../img/message-emo.png" alt="logo du site" />
             <p>Nouveau message</p>
         </div>
 
